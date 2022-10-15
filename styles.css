@@ -1,0 +1,32 @@
+.banner{
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    /* background-color: cadetblue; */
+    background-color: #65afcf;
+}
+
+/* 
+primary‘#65AFCF’
+secondary:'#65CFA2’,
+*/
+
+h1{ text-align: center;}
+.vids{
+    width: auto;
+    height: 50vh;
+}
+
+#loadingScreen{
+    /* background-color: darkslategrey url(resource/flash_loading.gif) no-repeat center; */
+    background: #1b1f25fd url(resource/flash_loading.gif)no-repeat center;
+    background-size: 35%;
+    height:100vh;
+    /* width auto cause it to not show up :) */
+    width:100%; 
+    position: fixed;
+    top: 0;
+    left:0; 
+    
+    z-index: 100;
+}

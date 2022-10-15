@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>testing page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body >
+        <!-- pre loader -->
+        <div id="loadingScreen"></div>
+        
+        <h1 class=banner> start from here :) </h1>
+        
+        <div class=vids> <!--incresing page loading time-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XIcmGjmW35I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XIcmGjmW35I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XIcmGjmW35I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XIcmGjmW35I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XIcmGjmW35I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XIcmGjmW35I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XIcmGjmW35I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XIcmGjmW35I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XIcmGjmW35I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </div>
+        <!-- remove loading after page loaded-->
+        <script>
+            var loading = document.getElementById("loadingScreen")
+            window.addEventListener("load", function(){
+                loading.style.display ="none";
+            })
+        </script>
+    </body>
+</html>
